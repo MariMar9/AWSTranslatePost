@@ -13,16 +13,6 @@ namespace AWSTranslatePost.Controllers
 {
     public class AWSTranslateController : Controller
     {
-        AWSCredentials credenciales;
-
-        public AWSTranslateController()
-        {
-            /*CredentialProfileStoreChain perfil = new CredentialProfileStoreChain();
-            if (!perfil.TryGetAWSCredentials("Mar", out credenciales)){
-                throw new Exception("Credenciales no idsponibles.");
-            }*/
-        }
-
         public IActionResult Index()
         {
             return View();
